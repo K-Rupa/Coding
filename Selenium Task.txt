@@ -1,0 +1,83 @@
+15. How to find more than one web element in the list?
+
+	findElements() command in WebDriver can be used to find more than one web elements and save them into a list
+
+
+14. How to perform download files using selenium?
+	WebElement download_button= driver.findElement(By.id (<element ID>))  
+	download_button.click();
+
+13.How to perform upload files using selenium?
+
+	WebElement upload_file = driver.findElement(By.xpath(<element ID>));
+	upload_file.sendKeys("C:/Users/Sonali/Desktop/upload.png");-----> location of the file which needs to upload
+
+12. How to shift between tabs of the same browser using selenium?
+
+	ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
+      driver.switchTo().window(tabs.get(1));
+      driver.close();
+      driver.switchTo().window(tabs.get(0));
+
+8.Write code for taking Screenshot?
+
+	TakesScreenshot scrShot =((TakesScreenshot)webdriver); 
+ 	File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+6.Select multiple options from the dropdown
+
+	WebElement selectList = driver.findElement(By.xpath(Element)]"));
+	Select select = new Select(selectList);
+	select.selectByVisibleText("Option1");
+	select.selectByVisibleText("Option2");
+
+4. Write code for handling Frames  
+
+	driver.switchTo().frame(“iframeResult”);
+      WebElement element = driver.findElement(By.tagName(“button”));
+      element.click();
+      driver.switchTo().parentFrame();
+      driver.switchTo().defaultContent();
+
+10. Test scenario for credit card
+
+1	Check that the bank name of the credit card
+2	Check that the bank logo is properly displayed on the credit card or not
+3	Check that credit card type logo is displayed on the credit card or not such as Visa, Mastercard
+4	Verify that the credit card number is properly displayed or not.
+5	Verify that the expiry date is properly displayed or not
+6	Verify that the CVV number should be displayed on the backside of the credit card.
+7	Verify that the cardholder’s name should be displayed properly.
+8	Check that the color of the credit card
+9	Check that dimension of the credit card is as expected or not
+10	Check that the Wifi symbol is displayed on the credit card or not
+11	Check that the magnetic strip is displayed on the backside of the credit card number
+
+1.Write code for handling multiple window
+
+   Set<String> windows = driver.getWindowHandles();
+   windowlist = new ArrayList<String>(windows);
+
+11.Write code for handling multiple browsers and switch to new windows
+
+   String parentWindow = driver.getWindowHandle();
+   Set<String> handles =  driver.getWindowHandles();
+   for(String windowHandle  : handles)
+       {
+       if(!windowHandle.equals(parentWindow))
+          {
+          driver.switchTo().window(windowHandle);
+         driver.close(); 
+         driver.switchTo().window(parentWindow);
+          }
+       }
+2. Write code for positive and negative scenarios for Alerts
+
+	      Alert simpleAlert = driver.switchTo().alert();
+            simpleAlert.accept();
+            simpleAlert.dismiss();
+
+
+
+
+

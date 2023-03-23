@@ -1,0 +1,130 @@
+1.Write a Bug Report for a bug in the Whatsapp mobile application that is preventing users from sending video files in 
+group chats.
+
+ Defect ID-Id of the defect 
+ Defect Title-Sending video files is not working only in Whats app group chat 
+ Defect Description-Whatsapp mobile application that is preventing users from sending video files in 
+group chats.
+ Steps to Reproduce-
+1. open the whats app application in ur mobile
+2. In chats tab select the group chat
+3.select on attachment icon and select gallery 
+4.choose any video file and click on send icon
+Actual Result-Whatsapp mobile application that is preventing users from sending video files in 
+group chats.
+Expected result-Whatsapp mobile application should not prevent the users from sending video files in 
+group chats.
+ Environment-Testing Environment
+ Severity and Priority- Medium and high
+ Evidence - Need to add attachment for the bug
+
+2.Write a bug report for a bug in the login page that the submit button is not working.
+
+ Defect ID-Id of the defect 
+ Defect Title-Submit button is not working in login page
+ Description-login page-submit button is not working.
+ Steps to Reproduce-
+1. Launch the URL of the application
+2. Login page should be displayed
+3. Enter username and password
+4. Click on submit button
+Actual Result-Submit button is not working in login page
+Expected result-Submit button should work in login page
+ Environment-Testing Environment
+ Severity and Priority- critical and critical
+ Evidence - Need to add attachment for the bug
+
+3.Write a bug report for any scenario of your own in wats app
+Defect ID-Id of the defect 
+ Defect Title-Search icon is not working
+ Defect Description-In Whatsapp mobile application search icon is not working
+ Steps to Reproduce-
+1. open the whats app application in ur mobile
+2. Select search icon
+3. Enter the text to be search
+Actual Result-Search icon is not working
+Expected result-Whatsapp mobile application search icon is not working
+ Environment-Testing Environment
+ Severity and Priority- Low and Medium
+ Evidence - Need to add attachment for the bug
+
+4.Write a few testcases for booking tickers in redbus.
+Verify https://www.redbus.in/bus-tickets ticket booking website is loading properly or not.
+Verify on filling bus details like From stop, To stop, Departure date, list of available buses are displayed.
+Verify that users can search for Bus by name, from-to Stop for checking their status and timings.
+Verify that search results have Bus details, timings and availability.
+Verify that clicking the search results open complete details for Bus.
+Verify user is able to see available seats in a bus.
+Verify that the pricing of different types of seats in a bus is displayed to the users.
+Verify User is able to select single or more than one seat.
+
+5.Write a bug report for profile picture not updated in whatsapp.
+Defect ID-Id of the defect 
+ Defect Title-profile picture not updated in whatsapp 
+ Defect Description-profile picture not updated in whatsapp
+group chats.
+ Steps to Reproduce-
+1. open the whats app application in ur mobile
+2. select 3 dots from the right cornor
+3. Select setting from the list
+4. upload profile picture
+Actual Result-profile picture not updated in whatsapp
+Expected result-profile picture should be updated in whatsapp
+ Environment-Testing Environment
+ Severity and Priority- medium and high
+ Evidence - Need to add attachment for the bug
+
+6.Write a Bug Report for a bug in the Amazon website that is preventing users from adding Electronic items in the cart.
+Defect ID-Id of the defect 
+ Defect Title-Amazon website that is preventing users from adding Electronic items in the cart.
+ Defect Description-Amazon website that is preventing users from adding Electronic items in the cart.
+ Steps to Reproduce-
+1. open the amazon website
+2. In home page search the electronic item you what to add in cart
+3. click on add to cart button
+Actual Result-Amazon website that is preventing users from adding Electronic items in the cart
+Expected result-Amazon website should not prevent users from adding Electronic items in the cart
+ Environment-Testing Environment
+ Severity and Priority- medium and high
+ Evidence - Need to add attachment for the bug
+
+7.Write any 5 Negative testcases.
+1.Try to enter an invalid email id in the email field
+2.Try to enter an invalid phone number in a phone number field (characters)
+3.Upload image with size out of specified boundary
+4.Upload invalid files like XML, SQL, etc. files in image upload field
+5.Enter characters that are not allowed in an input field
+
+8.Write a few test cases for the IRCTC Web Application.
+1.To Verify for the successful launching of the application
+2.To Verify for thesuccessful loginof the user
+3.To verify for the display of "Plan my Travel"screen along with following
+From edit field & "Fetch Station code" button at the right side of edit field
+by default"Enter City Name" message should be displayed inside From edit field.
+To edit field & "Fetch Station code" button at the right side of edit field, 
+by default "Enter City Name" message should be displayed inside To edit field.
+ Date field & "Open to calender" button at the right side of Date field.
+4.verify for the"From edit field" not to accept an empty field
+5. To vefify for the date field not to accept theinvalid date
+
+9. Write a few test cases for the SpiceJet Web Application.
+Verify that the SpiceJet home page is accessible to the user.
+Verify that clicking on the header links the page is navigated to an appropriate page.
+Verify that place the mouse pointer over the login guest login section is displayed to the user.
+Verify the functionality of “guest” section on the login pop up.
+Verify the functionality of “agent” section on the login pop up
+Verify the functionality of “corporate” section on the login pop up.
+Logout link is displayed to the user when user login in to the application.
+Verify that the content in the login pop up is valid.
+Verify that clicking on “View our latest schedules” link the page is navigated to SpiceJet schedules page.
+
+10.Create 10 test case for amazon Website view
+Check whether the Shopping Cart button is seen on the product display page.
+Check whether the quantity of the product increases when Adding one item to the cart.
+Check whether the quality is increased when adding the same item to the cart.
+Check whether the quantity is decreased when removing some items from the cart.
+Check whether the confirmation message is displayed or not when the user adds any item to the cart successfully.
+Check whether all the items added to the cart show in proper sequence.
+Check whether the application is calculating the shipping charges, tax, packing price etc as expected.
+
+ 

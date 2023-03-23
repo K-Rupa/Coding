@@ -1,0 +1,65 @@
+--Scalar FUNCTION--
+
+select first_name , 
+(select department_name from departments where departments.department_id = employees.department_id) as depname , 
+salary from employees;
+
+
+--Joins--
+
+inner join		=> matching records
+left outer join	=> matching of both , unmatching of left table
+right outer join	=> matching of both , unmatching of right table
+full outer join	=> matching and unmatching of both tables
+self join		=> joining table within itself
+
+--column Rename 
+
+alter table wwe rename column cc to bb;
+
+--Distinct
+
+Select distinct employee_id from employees;
+
+--MAX
+select department_id , max(salary) , min(salary) from employees group by department_id order by department_id;
+
+--Operators
+
+=	<> 	!=
+<
+>
+<=
+>=
+in	not in
+like	not like
+between   	not between
+all
+any
+is null	is not null
+
+select first_name , salary , hire_date from employees where salary = 24000;
+select first_name , salary , hire_date from employees where salary > 15000;
+select first_name , salary , hire_date from employees where salary >= 17000;
+select first_name , salary , hire_date from employees where salary <= 4800;
+
+--first 5 records
+select * from employees where rownum<=5 
+order by salary asc;
+
+--last 5records
+select * from employees where rownum<=5 
+order by salary Desc;
+--dense RANK
+select first_name , salary ,department_id,dense_rank() over(order by salary desc) as rnk from employees)
+where rnk = 3;
+
+--copy table
+create table emp as select * from employees;
+
+--Not assinged 
+
+select * from employees where ( department_id , manager_id  ) not in
+(
+select department_id , manager_id from departments
+);
